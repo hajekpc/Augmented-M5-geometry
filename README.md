@@ -15,8 +15,7 @@ during a phonatory position for 112 Hz was obtained from a plaster cast and was 
 The geometry model of the vocal fold surfaces was constructed based on the data from the optical scanner and
 the augmented M5 model was fitted to a coronal slice of the selected vocal fold surface. The equations of
 the augmented M5 model are explained and its parameters, tuned to the real vocal fold geometry, are provided.
-The fitting is done in Python 3.8.5 using the scipy.optimize.curve fit package, which contains non-
-linear least squares method. It is shown that the augmented M5 model fits the real data with coefficient R2
+The fitting is done in Python 3.8.5 using the scipy.optimize.curve fit package, which contains non-linear least squares method. It is shown that the augmented M5 model fits the real data with coefficient R2
 close to 1 and the tuned parameters are in a good agreement with the overall vocal fold dimensions and with
 the parameters of the original 2D M5 model.
 
@@ -65,13 +64,20 @@ VFslices, VFslices_x = slice_STL(VFmesh_rotffset, n_slices = 10, xtol = 0.1)
 Now you have VFslices which have to be rotated, then can be fitted -->
 VFslices_rot, p0 = M5_rot(VFslices, optional arguments go here) -->
 popt, pcov, perr, R_sq, popt_legend = M5_fitting(VFslices_rot, p0, n_slice)
+
 From the last function, you obtain: 
+
     Optimal M5 model parameters (popt), 
+
     Parameters of covariance (pcov),
+
     Standard deviation errors on the parameters (perr),
+
     R square reliability of the fit (R_sq),
+
     Description of the optimal parametrs (popt_legend).
-Based on this, you can create (and plot) the fitted M5 model, but
+    
+Based on this, you can create (and plot) the fitted Augmented M5 model, but
 script will do it automatically :D.
 
 
