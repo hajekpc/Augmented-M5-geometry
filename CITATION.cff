@@ -9,3 +9,22 @@ version: 1.0.0
 doi: 10.5281/zenodo.1234
 date-released: 2024-04-25
 url: "https://github.com/hajekpc/Augmented-M5-geometry"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Hájek"
+    given-names: "Petr"
+    orcid: "https://orcid.org/0000-0003-1814-1904"
+  - family-names: "Horáček"
+    given-names: "Jaromír"
+  - family-names: "Švec"
+    given-names: "Jan G."
+  doi: "10.0000/00000"
+  journal: "Engineering Mechanics 2024"
+  month: 5
+  start: 1 # First page number
+  end: 10 # Last page number
+  title: "AUGMENTED M5 GEOMETRY OF HUMAN VOCAL FOLD IN PHONATORY POSITION – PILOT RESULTS"
+  issue: 1
+  volume: 1
+  year: 2024
