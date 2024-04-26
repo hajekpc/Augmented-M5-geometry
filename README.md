@@ -1,11 +1,15 @@
 # Augmented-M5-geometry
 
-
+# 
 The presented script is a part of the conference paper:
-# AUGMENTED M5 GEOMETRY OF HUMAN VOCAL FOLD IN PHONATORY POSITION – PILOT RESULTS
+
+AUGMENTED M5 GEOMETRY OF HUMAN VOCAL FOLD IN PHONATORY POSITION – PILOT RESULTS
+
 Hájek Petr, Horáček Jaromír, Švec Jan G.
 
-Abstract: The presented contribution deals with a newly designed parametric planar geometry of the vocal fold
+Abstract: 
+
+The presented contribution deals with a newly designed parametric planar geometry of the vocal fold
 – the augmented M5 model – which is fitted to a real-shaped human vocal fold. The real shape of the vocal fold
 during a phonatory position for 112 Hz was obtained from a plaster cast and was digitized by optical scanning.
 The geometry model of the vocal fold surfaces was constructed based on the data from the optical scanner and
@@ -15,8 +19,12 @@ The fitting is done in Python 3.8.5 using the scipy.optimize.curve fit package, 
 linear least squares method. It is shown that the augmented M5 model fits the real data with coefficient R2
 close to 1 and the tuned parameters are in a good agreement with the overall vocal fold dimensions and with
 the parameters of the original 2D M5 model.
-Keywords: Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory position.
 
+Keywords: 
+
+Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory position.
+
+# 
 
 # The script contains following functions:
 #== (STL_0) Functions for clockwise and counterclockwise rotations in 3D, etc
