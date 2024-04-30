@@ -8,13 +8,14 @@ The presented script is a part of the conference paper:
 
 **Abstract:** 
 
-The presented contribution deals with a newly designed parametric planar geometry of the vocal fold
+The presented contribution deals with a newly designed parametric planar geometry of the vocal fold (VF)
 – the augmented M5 model – which is fitted to a real-shaped human vocal fold. The real shape of the vocal fold
 during a phonatory position for 112 Hz was obtained from a plaster cast and was digitized by optical scanning.
 The geometry model of the vocal fold surfaces was constructed based on the data from the optical scanner and
 the augmented M5 model was fitted to a coronal slice of the selected vocal fold surface. The equations of
 the augmented M5 model are explained and its parameters, tuned to the real vocal fold geometry, are provided.
-The fitting is done in Python 3.8.5 using the scipy.optimize.curve fit package, which contains non-linear least squares method. It is shown that the augmented M5 model fits the real data with coefficient R2
+The fitting is done in Python 3.8.5 using the scipy.optimize.curve fit package, which contains non-linear least squares method. 
+It is shown that the augmented M5 model fits the real data with coefficient R2
 close to 1 and the tuned parameters are in a good agreement with the overall vocal fold dimensions and with
 the parameters of the original 2D M5 model.
 
@@ -42,7 +43,8 @@ for the next, so one can tune proper parameters of particular function
 and then can pass output to the next function. That's convenient!
 
 ### The pipe with STL functions works as follows: 
-Copy your STL to your working folder: 
+Copy your STL to your working folder and then: 
+
 --> stl-filename.stl 
 
 --> VFmesh, VFmesh_clean = read_STL('stl-filename.stl') 
