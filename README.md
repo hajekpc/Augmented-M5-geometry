@@ -25,9 +25,8 @@ Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory posi
 ---
 
 ## The script contains following functions:
-#== (STL_0) Functions for clockwise and counterclockwise rotations in 3D, etc
-
-#== (STL_1) Func. read_STL: reads STL object and saves coordinates of points
+- (STL_0) Functions for clockwise and counterclockwise rotations in 3D, etc
+- (STL_1) Func. read_STL: reads STL object and saves coordinates of points
 
 #== (STL_2) Func. rotffset_STL: rotates and offsets the points
 
