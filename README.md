@@ -27,22 +27,14 @@ Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory posi
 ## The script contains following functions:
 - (STL_0) Functions for clockwise and counterclockwise rotations in 3D, etc
 - (STL_1) Func. read_STL: reads STL object and saves coordinates of points
+- (STL_2) Func. rotffset_STL: rotates and offsets the points
+- (STL_3) Func. slice_STL: saves STL slices and its positions
 
-#== (STL_2) Func. rotffset_STL: rotates and offsets the points
-
-#== (STL_3) Func. slice_STL: saves STL slices and its positions
-
-
-
-#== (M5_0) Functions for clockwise and counterclockwise rotation in 2D
-
-#== (M5_1) Func. M5: model is created as a function of the Scherer's parameters
-
-#== (M5_2) Func. M5_fit: model is transformed to the fitting function 
-
-#== (M5_3) Func. M5_rot: to find correct rotation of measured data that matches the fitting function
-
-#== (M5_4) Func. M5_fitting: fits the measured data with M5_fit and returns basic statistics
+- (M5_0) Functions for clockwise and counterclockwise rotation in 2D
+- (M5_1) Func. M5: model is created as a function of the Scherer's parameters
+- (M5_2) Func. M5_fit: model is transformed to the fitting function 
+- (M5_3) Func. M5_rot: to find correct rotation of measured data that matches the fitting function
+- (M5_4) Func. M5_fitting: fits the measured data with M5_fit and returns basic statistics
 
 
 
