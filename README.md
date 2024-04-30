@@ -54,27 +54,27 @@ Copy your STL to your working folder and then:
 --> VFslices, VFslices_x = slice_STL(VFmesh_rotffset, n_slices = 10, xtol = 0.1)
 
 ### The pipe with M5 functions fitting works as follows:
-Now you have VFslices which have to be rotated, then can be fitted -->
-VFslices_rot, p0 = M5_rot(VFslices, optional arguments go here) -->
-popt, pcov, perr, R_sq, popt_legend = M5_fitting(VFslices_rot, p0, n_slice)
+Now you have VFslices which have to be rotated, then can be fitted: 
+
+--> VFslices_rot, p0 = M5_rot(VFslices, optional arguments go here) 
+
+--> popt, pcov, perr, R_sq, popt_legend = M5_fitting(VFslices_rot, p0, n_slice)
 
 From the last function, you obtain: 
-
-    Optimal M5 model parameters (popt), 
-
-    Parameters of covariance (pcov),
-
-    Standard deviation errors on the parameters (perr),
-
-    R square reliability of the fit (R_sq),
-
-    Description of the optimal parametrs (popt_legend).
+- Optimal M5 model parameters (popt), 
+- Parameters of covariance (pcov),
+- Standard deviation errors on the parameters (perr),
+- R square reliability of the fit (R_sq),
+- Description of the optimal parametrs (popt_legend).
     
 Based on this, you can create (and plot) the fitted Augmented M5 model, but
-script will do it automatically :D.
+script will plot it automatically.
 
+## Notes
+Details are given inside each function
 
 ## Literature
-[^1]: SCHERER, Ronald C. et al. (2001) Intraglottal pressure profiles for a symmetric and oblique glottis with a divergence angle of 10 degrees. 
-Details are given inside each function
+[^1]: SCHERER, Ronald C., Daoud SHINWARI, Kenneth J. DE WITT, Chao ZHANG, Bogdan R. KUCINSCHI a Abdollah A. AFJEH, 2001. Intraglottal pressure profiles for a symmetric and oblique glottis with a divergence angle of 10 degrees. The Journal of the Acoustical Society of America [online]. 109(4), 1616–1630. ISSN 0001-4966. Available from: doi:10.1121/1.1333420
+
+
 
