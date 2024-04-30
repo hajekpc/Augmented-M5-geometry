@@ -21,6 +21,7 @@ the parameters of the original 2D M5 model.
 Keywords: 
 
 Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory position.
+
 ---
 
 # The script contains following functions:
