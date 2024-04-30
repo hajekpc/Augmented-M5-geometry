@@ -1,4 +1,4 @@
-## Augmented-M5-geometry
+# Augmented-M5-geometry
 
 The presented script is a part of the conference paper:
 
@@ -24,7 +24,7 @@ Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory posi
 
 ---
 
-# The script contains following functions:
+## The script contains following functions:
 #== (STL_0) Functions for clockwise and counterclockwise rotations in 3D, etc
 
 #== (STL_1) Func. read_STL: reads STL object and saves coordinates of points
