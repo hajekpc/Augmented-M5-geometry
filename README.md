@@ -81,19 +81,23 @@ Details are given inside each function
 
 term
 : definition
+
 Strikethrough
-~~The world is flat.~~
+
+~~asddsa~~
+
 Task List
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-Emoji
-(see also Copying and Pasting Emoji)
-That is so funny! :joy:
+
+:joy:
 Highlight
 I need to highlight these ==very important words==.
+
 Subscript
 H~2~O
+
 Superscript
 X^2^
 
