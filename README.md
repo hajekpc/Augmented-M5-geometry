@@ -4,7 +4,7 @@ The presented script is a part of the conference paper:
 
 **AUGMENTED M5 GEOMETRY OF HUMAN VOCAL FOLD IN PHONATORY POSITION – PILOT RESULTS**
 
-*Hájek Petr<sup>1</sup>, Horáček Jaromír^2, Švec Jan G.^3*
+*Hájek Petr<sup>1</sup>, Horáček Jaromír<sup>2</sup>, Švec Jan G.<sup>3</sup>*
 
 **Abstract:** 
 
@@ -23,14 +23,14 @@ the parameters of the original 2D M5 model.
 
 Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory position.
 
-<sup>1</sup>: Ing. Petr Hájek, PhD.: Institute of Solid Mechanics, Mechatronics and Biomechanics, Brno University of Technology,
+<sup>1</sup> Ing. Petr Hájek, PhD.: Institute of Solid Mechanics, Mechatronics and Biomechanics, Brno University of Technology,
 Technická 2896/2, 616 69, Brno, CZ; Voice Research Laboratory, Department of Experimental Physics, Palacký University
 Olomouc; 17. listopadu 1192/12, 779 00, Olomouc, CZ; hajek.p@fme.vutbr.cz
 
-2: Ing. Jaromír Horáček, DSc.: Institute of Thermomechanics of the Czech Academy of Sciences, Dolejškova 1402/5, 182 00,
+<sup>2</sup> Ing. Jaromír Horáček, DSc.: Institute of Thermomechanics of the Czech Academy of Sciences, Dolejškova 1402/5, 182 00,
 Prague, CZ; jaromirh@it.cas.cz
 
-3: Prof. RNDr. Jan G. Švec, PhD. et PhD.: Voice Research Laboratory, Department of Experimental Physics, Palacký University
+<sup>3</sup> Prof. RNDr. Jan G. Švec, PhD. et PhD.: Voice Research Laboratory, Department of Experimental Physics, Palacký University
 Olomouc, 17. listopadu 1192/12, 779 00, Olomouc, CZ; jan.svec@upol.cz
 
 ---
