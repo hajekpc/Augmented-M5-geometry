@@ -1109,8 +1109,9 @@ def M5_fitting(VFslices_rot, p0, n_slice = 8):
 #==============================================================================
 #==============================================================================
 """
+
 # The functions are described and commented inside themselves!
-# Typical parameters are given inside each function used.
+# Typical parameters are given inside each function used in the pipe.
 
 
 #==============================================================================
