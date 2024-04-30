@@ -66,13 +66,7 @@ From the last function, you obtain:
 - Description of the optimal parametrs (`popt_legend`).
     
 Based on this, you can create (and plot) the fitted Augmented M5 model, but
-script will plot it automatically.
-
----
-
-**Notes**
-
-Details are given inside each function in the python script.
+script will plot it automatically. Details are given inside each function in the python script.
 
 
 **Literature**
