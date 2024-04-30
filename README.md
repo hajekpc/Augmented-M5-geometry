@@ -53,7 +53,7 @@ Copy your STL to your working folder and then:
 
 --> VFslices, VFslices_x = slice_STL(VFmesh_rotffset, n_slices = 10, xtol = 0.1)
 
-### The pipe with M5 functions fitting works as follows:
+### The pipe with M5 functions works as follows:
 Now you have VFslices which have to be rotated, then can be fitted: 
 
 --> VFslices_rot, p0 = M5_rot(VFslices, optional arguments go here) 
