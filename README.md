@@ -4,7 +4,7 @@ The presented script is a part of the conference paper:
 
 **AUGMENTED M5 GEOMETRY OF HUMAN VOCAL FOLD IN PHONATORY POSITION – PILOT RESULTS**
 
-*Hájek Petr, Horáček Jaromír, Švec Jan G.*
+*Hájek Petr [^1], Horáček Jaromír [^2], Švec Jan G. [^3]*
 
 **Abstract:** 
 
@@ -23,6 +23,16 @@ the parameters of the original 2D M5 model.
 
 Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory position.
 
+[^1]: Ing. Petr Hájek, PhD.: Institute of Solid Mechanics, Mechatronics and Biomechanics, Brno University of Technology,
+Technická 2896/2, 616 69, Brno, CZ; Voice Research Laboratory, Department of Experimental Physics, Palacký University
+Olomouc; 17. listopadu 1192/12, 779 00, Olomouc, CZ; hajek.p@fme.vutbr.cz
+
+[^2]: Ing. Jaromír Horáček, DSc.: Institute of Thermomechanics of the Czech Academy of Sciences, Dolejškova 1402/5, 182 00,
+Prague, CZ; jaromirh@it.cas.cz
+
+[^3]: Prof. RNDr. Jan G. Švec, PhD. et PhD.: Voice Research Laboratory, Department of Experimental Physics, Palacký University
+Olomouc, 17. listopadu 1192/12, 779 00, Olomouc, CZ; jan.svec@upol.cz
+
 ---
 
 ## The script contains following functions:
@@ -32,7 +42,7 @@ Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory posi
 - (STL_3) Func. slice_STL: saves STL slices and its positions
 
 - (M5_0) Functions for clockwise and counterclockwise rotation in 2D
-- (M5_1) Func. M5: model is created as a function of the Scherer's [^1] and new parameters 
+- (M5_1) Func. M5: model is created as a function of the Scherer's [^4] and new parameters 
 - (M5_2) Func. M5_fit: model is transformed to the fitting function 
 - (M5_3) Func. M5_rot: to find correct rotation of measured data that matches the fitting function
 - (M5_4) Func. M5_fitting: fits the measured data with M5_fit and returns basic statistics
@@ -70,5 +80,5 @@ script will plot it automatically. Details are given inside each function in the
 
 
 **Literature**
-[^1]: SCHERER, Ronald C., Daoud SHINWARI, Kenneth J. DE WITT, Chao ZHANG, Bogdan R. KUCINSCHI a Abdollah A. AFJEH, 2001. Intraglottal pressure profiles for a symmetric and oblique glottis with a divergence angle of 10 degrees. The Journal of the Acoustical Society of America [online]. 109(4), 1616–1630. ISSN 0001-4966. Available from: doi:10.1121/1.1333420
+[^4]: SCHERER, Ronald C., Daoud SHINWARI, Kenneth J. DE WITT, Chao ZHANG, Bogdan R. KUCINSCHI a Abdollah A. AFJEH, 2001. Intraglottal pressure profiles for a symmetric and oblique glottis with a divergence angle of 10 degrees. The Journal of the Acoustical Society of America [online]. 109(4), 1616–1630. ISSN 0001-4966. Available from: doi:10.1121/1.1333420
 
