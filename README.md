@@ -3,7 +3,7 @@
 # 
 The presented script is a part of the conference paper:
 
-AUGMENTED M5 GEOMETRY OF HUMAN VOCAL FOLD IN PHONATORY POSITION – PILOT RESULTS
+**AUGMENTED M5 GEOMETRY OF HUMAN VOCAL FOLD IN PHONATORY POSITION – PILOT RESULTS**
 
 Hájek Petr, Horáček Jaromír, Švec Jan G.
 
