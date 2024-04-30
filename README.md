@@ -68,9 +68,9 @@ From the last function, you obtain:
 Based on this, you can create (and plot) the fitted Augmented M5 model, but
 script will plot it automatically.
 
-## Notes
+**Notes**
 Details are given inside each function
 
-## Literature
+**Literature**
 [^1]: SCHERER, Ronald C., Daoud SHINWARI, Kenneth J. DE WITT, Chao ZHANG, Bogdan R. KUCINSCHI a Abdollah A. AFJEH, 2001. Intraglottal pressure profiles for a symmetric and oblique glottis with a divergence angle of 10 degrees. The Journal of the Acoustical Society of America [online]. 109(4), 1616–1630. ISSN 0001-4966. Available from: doi:10.1121/1.1333420
 
