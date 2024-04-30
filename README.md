@@ -47,7 +47,7 @@ Copy your STL to your working folder:
 
 --> stl-filename.stl 
 
---> VFmesh, VFmesh_clean = read_STL('stl-filename.stl') 
+--> `VFmesh, VFmesh_clean = read_STL('stl-filename.stl')` 
 
 --> VFmesh_rotffset = rotffset_STL(VFmesh_clean) 
 
@@ -75,30 +75,4 @@ Details are given inside each function
 
 ## Literature
 [^1]: SCHERER, Ronald C., Daoud SHINWARI, Kenneth J. DE WITT, Chao ZHANG, Bogdan R. KUCINSCHI a Abdollah A. AFJEH, 2001. Intraglottal pressure profiles for a symmetric and oblique glottis with a divergence angle of 10 degrees. The Journal of the Acoustical Society of America [online]. 109(4), 1616–1630. ISSN 0001-4966. Available from: doi:10.1121/1.1333420
-
-
-
-
-term
-: definition
-
-Strikethrough
-
-~~asddsa~~
-
-Task List
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-:joy:
-Highlight
-I need to highlight these ==very important words==.
-
-Subscript
-H~2~O
-
-Superscript
-X^2^
-
 
