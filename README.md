@@ -43,11 +43,13 @@ and then can pass output to the next function. That's convenient!
 
 ### The pipe with STL functions works as follows: 
 Copy your STL to your working folder: 
-    
-    stl-filename.stl -->
-    VFmesh, VFmesh_clean = read_STL('stl-filename.stl') -->
-    VFmesh_rotffset = rotffset_STL(VFmesh_clean) -->
-    VFslices, VFslices_x = slice_STL(VFmesh_rotffset, n_slices = 10, xtol = 0.1)
+--> stl-filename.stl 
+
+--> VFmesh, VFmesh_clean = read_STL('stl-filename.stl') 
+
+--> VFmesh_rotffset = rotffset_STL(VFmesh_clean) 
+
+--> VFslices, VFslices_x = slice_STL(VFmesh_rotffset, n_slices = 10, xtol = 0.1)
 
 ### The pipe with M5 functions fitting works as follows:
 Now you have VFslices which have to be rotated, then can be fitted -->
