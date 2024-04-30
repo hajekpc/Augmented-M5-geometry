@@ -1,11 +1,10 @@
 # Augmented-M5-geometry
 
-# 
 The presented script is a part of the conference paper:
 
 **AUGMENTED M5 GEOMETRY OF HUMAN VOCAL FOLD IN PHONATORY POSITION – PILOT RESULTS**
 
-Hájek Petr, Horáček Jaromír, Švec Jan G.
+/Hájek Petr, Horáček Jaromír, Švec Jan G./
 
 Abstract: 
 
