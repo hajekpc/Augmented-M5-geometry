@@ -43,29 +43,27 @@ for the next, so one can tune proper parameters of particular function
 and then can pass output to the next function. That's convenient!
 
 ### The pipe with STL functions works as follows: 
-Copy your STL to your working folder: 
-
---> stl-filename.stl 
+Copy your STL to your working folder --> stl-filename.stl 
 
 --> `VFmesh, VFmesh_clean = read_STL('stl-filename.stl')` 
 
---> VFmesh_rotffset = rotffset_STL(VFmesh_clean) 
+--> `VFmesh_rotffset = rotffset_STL(VFmesh_clean)` 
 
---> VFslices, VFslices_x = slice_STL(VFmesh_rotffset, n_slices = 10, xtol = 0.1)
+--> `VFslices, VFslices_x = slice_STL(VFmesh_rotffset, n_slices = 10, xtol = 0.1)`
 
 ### The pipe with M5 functions works as follows:
 Now you have VFslices which have to be rotated, then can be fitted: 
 
---> VFslices_rot, p0 = M5_rot(VFslices, optional arguments go here) 
+--> `VFslices_rot, p0 = M5_rot(VFslices, optional arguments go here)`
 
---> popt, pcov, perr, R_sq, popt_legend = M5_fitting(VFslices_rot, p0, n_slice)
+--> `popt, pcov, perr, R_sq, popt_legend = M5_fitting(VFslices_rot, p0, n_slice)`
 
 From the last function, you obtain: 
-- Optimal M5 model parameters (popt), 
-- Parameters of covariance (pcov),
-- Standard deviation errors on the parameters (perr),
-- R square reliability of the fit (R_sq),
-- Description of the optimal parametrs (popt_legend).
+- Optimal M5 model parameters (`popt`), 
+- Parameters of covariance (`pcov`),
+- Standard deviation errors on the parameters (`perr`),
+- R square reliability of the fit (`R_sq`),
+- Description of the optimal parametrs (`popt_legend`).
     
 Based on this, you can create (and plot) the fitted Augmented M5 model, but
 script will plot it automatically.
