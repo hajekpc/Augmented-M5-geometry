@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 #==============================================================================
-#== @TITLE:      3D M5 GEOMETRY
+#== @TITLE:      Augmented M5 GEOMETRY
 #== @AUTHOR:     Petr Hajek
 #== @DATE:       2021-11-16
-#== @NOTES:      Creates spatial 3D M5 geometry based on real STL data
+#== @LICENSE:    MPL-2.0 license
+#== @NOTES:      Creates Augmented M5 geometry based on real STL data
 #== @REFERENCES: [1] SCHERER, Ronald C. et al. (2001) Intraglottal pressure 
                  profiles for a symmetric and oblique glottis 
                  with a divergence angle of 10 degrees.
