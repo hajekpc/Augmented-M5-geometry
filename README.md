@@ -31,7 +31,7 @@ Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory posi
 - (STL_3) Func. slice_STL: saves STL slices and its positions
 
 - (M5_0) Functions for clockwise and counterclockwise rotation in 2D
-- (M5_1) Func. M5: model is created as a function of the Scherer's parameters [^1]: SCHERER, Ronald C. et al. (2001) Intraglottal pressure profiles for a symmetric and oblique glottis with a divergence angle of 10 degrees. 
+- (M5_1) Func. M5: model is created as a function of the Scherer's [^1] parameters 
 - (M5_2) Func. M5_fit: model is transformed to the fitting function 
 - (M5_3) Func. M5_rot: to find correct rotation of measured data that matches the fitting function
 - (M5_4) Func. M5_fitting: fits the measured data with M5_fit and returns basic statistics
@@ -71,6 +71,7 @@ Based on this, you can create (and plot) the fitted Augmented M5 model, but
 script will do it automatically :D.
 
 
-# Notes:
+## Literature
+[^1]: SCHERER, Ronald C. et al. (2001) Intraglottal pressure profiles for a symmetric and oblique glottis with a divergence angle of 10 degrees. 
 Details are given inside each function
 
