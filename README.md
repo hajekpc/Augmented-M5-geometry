@@ -43,7 +43,7 @@ for the next, so one can tune proper parameters of particular function
 and then can pass output to the next function. That's convenient!
 
 ### The pipe with STL functions works as follows: 
-Copy your STL to your working folder and then: 
+Copy your STL to your working folder: 
 
 --> stl-filename.stl 
 
