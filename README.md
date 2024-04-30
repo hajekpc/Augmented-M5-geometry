@@ -25,32 +25,30 @@ Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory posi
 ---
 
 ## The script contains following functions:
-- (STL_0) Functions for clockwise and counterclockwise rotations in 3D, etc
+- (STL_0) Functions for clockwise and counterclockwise rotations in 3D, etc.
 - (STL_1) Func. read_STL: reads STL object and saves coordinates of points
 - (STL_2) Func. rotffset_STL: rotates and offsets the points
 - (STL_3) Func. slice_STL: saves STL slices and its positions
 
 - (M5_0) Functions for clockwise and counterclockwise rotation in 2D
-- (M5_1) Func. M5: model is created as a function of the Scherer's [^1] parameters 
+- (M5_1) Func. M5: model is created as a function of the Scherer's [^1] and new parameters 
 - (M5_2) Func. M5_fit: model is transformed to the fitting function 
 - (M5_3) Func. M5_rot: to find correct rotation of measured data that matches the fitting function
 - (M5_4) Func. M5_fitting: fits the measured data with M5_fit and returns basic statistics
 
-
-
-
-# So: 
+## So: 
 The functions work together as a pipe. The output from one is the input 
 for the next, so one can tune proper parameters of particular function
 and then can pass output to the next function. That's convenient!
 
-# The pipe with STL functions works as follows: 
-Copy your STL to your working folder: stl-filename.stl -->
+### The pipe with STL functions works as follows: 
+Copy your STL to your working folder: 
+stl-filename.stl -->
 VFmesh, VFmesh_clean = read_STL('stl-filename.stl') -->
 VFmesh_rotffset = rotffset_STL(VFmesh_clean) -->
 VFslices, VFslices_x = slice_STL(VFmesh_rotffset, n_slices = 10, xtol = 0.1)
 
-# The pipe with M5 functions fitting works as follows:
+### The pipe with M5 functions fitting works as follows:
 Now you have VFslices which have to be rotated, then can be fitted -->
 VFslices_rot, p0 = M5_rot(VFslices, optional arguments go here) -->
 popt, pcov, perr, R_sq, popt_legend = M5_fitting(VFslices_rot, p0, n_slice)
