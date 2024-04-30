@@ -1,4 +1,4 @@
-# Augmented-M5-geometry
+## Augmented-M5-geometry
 
 The presented script is a part of the conference paper:
 
