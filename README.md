@@ -6,7 +6,7 @@ The presented script is a part of the conference paper:
 
 *Hájek Petr, Horáček Jaromír, Švec Jan G.*
 
-Abstract: 
+**Abstract:** 
 
 The presented contribution deals with a newly designed parametric planar geometry of the vocal fold
 – the augmented M5 model – which is fitted to a real-shaped human vocal fold. The real shape of the vocal fold
@@ -18,7 +18,7 @@ The fitting is done in Python 3.8.5 using the scipy.optimize.curve fit package, 
 close to 1 and the tuned parameters are in a good agreement with the overall vocal fold dimensions and with
 the parameters of the original 2D M5 model.
 
-Keywords: 
+**Keywords:** 
 
 Vocal fold, M5 geometry, non-linear least squares, curve fitting, phonatory position.
 
