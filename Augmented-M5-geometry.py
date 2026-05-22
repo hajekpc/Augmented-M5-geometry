@@ -1184,7 +1184,7 @@ VFslices_rot, p0 = M5_rot(VFslices, VFslices_x,
 # but produces output which is rotated back (plot).
 # Optimal parameters (popt) and statistics are invariant on the rotation.
 
- popt, pcov, perr, R_sq, popt_legend, points, centers = M5_fitting(VFslices_rot, p0, n_slice = 8)
+popt, pcov, perr, R_sq, popt_legend, points, centers = M5_fitting(VFslices_rot, p0, n_slice = 8)
 
 
 # And that's it. Totally easy, right?
