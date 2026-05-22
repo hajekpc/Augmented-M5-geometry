@@ -1165,13 +1165,13 @@ VFslices, VFslices_x = slice_STL(VFmesh_rotffset, n_slices = 10, xtol = 0.1)
 # It produces optimally rotated points which match the tuned fitting function.
 # Note: The M5 fitting function is rotated 110 deg clockwise by default.
 
- VFslices_rot, p0 = M5_rot(VFslices, VFslices_x, 
+VFslices_rot, p0 = M5_rot(VFslices, VFslices_x, 
                      Rot = 110, 
                      R_O = 1.600, T = 2.000, PSI = -13, 
                      W_G = 2.0, D_Y = -1.0, 
                      R_A = 3.0, alpha = 55.0,
-                     VT_ANG = 30.0)
-                     R_E = 7.0, beta = 40.0,
+                     VT_ANG = 30.0,
+                     R_E = 7.0, beta = 40.0)
 
 
 #==============================================================================
